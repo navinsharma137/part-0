@@ -1,0 +1,6 @@
+title Untitled
+
+browser->server : reuest https://studies.cs.helsinki.fi/exampleapp/notes
+server-->browser : response https://studies.cs.helsinki.fi/exampleapp/notes 
+browser->server : POST https://studies.cs.helsinki.fi/exampleapp/notes
+server-->browser : HTTP 200
